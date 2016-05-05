@@ -1,6 +1,7 @@
 .background{
 background-image: url('../asset/bird.jpg');
 background-size: cover;
+background:#eoeoeo;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;

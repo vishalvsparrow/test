@@ -4,22 +4,32 @@ background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-width:100%;
+
+height: auto;
+max-width: 100%;
+max-height: auto;
 background-attachment:fixed; 
-height:100%;
+
 background-repeat: no-repeat;
-background-position: 40% 40%;
+background-position: 30% 30%;
 }
 
 .feature{
 	border-radius: 100%;
-	max-width: 190px;
-	max-height: 190px;
+	max-width: 23%;
+	max-height: 20%;
 }
 
 .pad{
-	padding-top:100px 
+	padding-top:100px;
+	padding-bottom: 15%;
 }
+
+.title{
+	padding-top:30px;
+	padding-bottom: 15%;
+}
+
 .header{
 	margin: 0.4rem;
 }
@@ -27,4 +37,20 @@ background-position: 40% 40%;
 .links{
 	padding-top: 0.9rem;
 	padding-right: 0.8rem;
+}
+
+.content{
+	font-size: 1.1rem;
+	color: inherit;
+	margin-top: 0.4rem; 
+}
+
+.card-margin{
+	margin: 4.3rem;
+
+}
+
+.card-title1{
+	font-size: 2.0rem;
+	padding-top: 0.3rem;
 }

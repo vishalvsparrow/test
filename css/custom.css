@@ -1,6 +1,7 @@
 .background{
 background-image: url('../asset/bird.jpg');
 background-size: cover;
+background:#eoeoeo;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -9,7 +10,11 @@ height: auto;
 max-width: 100%;
 max-height: auto;
 background-attachment:fixed; 
+<<<<<<< HEAD
 
+=======
+height:100%;
+>>>>>>> origin/master
 background-repeat: no-repeat;
 background-position: 30% 30%;
 }
@@ -38,6 +43,7 @@ background-position: 30% 30%;
 	padding-top: 0.9rem;
 	padding-right: 0.8rem;
 }
+<<<<<<< HEAD
 
 .content{
 	font-size: 1.1rem;
@@ -54,3 +60,5 @@ background-position: 30% 30%;
 	font-size: 2.0rem;
 	padding-top: 0.3rem;
 }
+=======
+>>>>>>> origin/master

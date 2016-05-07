@@ -7,27 +7,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/materialize.css" />
 		<link rel="stylesheet" href="css/custom.css"/>	
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">			
-	</head>
-	<body> 
-	<section class="background">
+		<link rel="stylesheet" href="css/font-awesome.min.css"/>
 
+	<style>
+	
+.background_fill {
+  overflow: hidden;
+  position: relative;
+  
+}
+.background_fill:before {
+  background-color: white;
+  background-size: cover;
+  z-index: -1;
+  content: " ";
+  position: fixed;
+
+  will-change: transform;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 12%;
+
+}
+
+	</style>
+
+	</head>
+	<body>
+	<section class="background_fill">
+	
 		<div class="links right-align">
 
-			<a href="http://twitter.com/vishal_vatnani" class="fa fa-twitter"> Twitter </a>
-			<a href="http://facebook.com/vishalvatnani" class="fa fa-facebook"> Facebook </a>
-			<a href="http://github.com/vishalvsparrow" class="fa fa-github"> Github </a>
+			<a href="http://facebook.com/vishalvatnani" class="fa fa-facebook"> Facebook &nbsp; </a>
+			<a href="http://twitter.com/vishal_vatnani" class="fa fa-twitter"> Twitter &nbsp; </a>
+			<a href="http://github.com/vishalvsparrow" class="fa fa-github"> Github &nbsp; </a>
+			<a href="http://github.com/vishalvsparrow" class="fa fa-linkedin"> LinkedIn &nbsp; </a>
 			<a href="mailto:vishalvatnani@gmail.com" class="fa fa-envelope-o"> Email </a>
 
 		</div>
 
 
-	<div class="pad">
+		<div class="pad">
 		<div class="container center grey-text text-lighten-2">
 		
 		<img src="asset/me.jpg" class="feature">
 	
-		<h4  class="header">Vishal Vatnani</h4>
+		<h4>Vishal Vatnani</h4>
 		<h6>Design, Operations, Marketing<br/></h6><h5><a href="http://utonexus.com" style="color: inherit;">Utonexus.com</a></h5>	
 		</div>
 		</div>
@@ -37,7 +62,7 @@
 	<section class="title brown lighten-1">
 
 		<div class="container center grey-text text-lighten-2">
-		<h4 class="header">What difference am I making in the existence?</h4>
+		<h4>What difference am I making in the existence?</h4>
 
 	<div class="card card-margin">
      <div class="row">
@@ -51,10 +76,12 @@
                 </div>
            </div>
           <div class="col s12 m8 l8 grey-text text-darken-1">
-          <div class="card-title1">Utonexus</div>
+          <div class="card-title1">Utonexus.com</div>
           <div class="content">
               A smarter way of enabling people understand each other.
               A place where each individual is understood, is a place where every human being can unlock their full capacity to create, love, and heal.
+
+
           </div>
           </div>
 
@@ -63,34 +90,256 @@
     </div>
     </div>
 
+    <div class="card">
+     <div class="row">
+        <div class="col s12 m12 l12">
+            <a href="http://rebellionone.wordpress.com">
+                <div class="col s12 m3 l3">
+                    <div class="card">
+          <div class="card-image">
+              <img src="https://rebellionone.files.wordpress.com/2015/01/logo_1337519_web.jpg?w=279">
+                </div>
+                </div>
+           </div>
+          <div class="col s12 m8 l8 grey-text text-darken-1">
+          <div class="card-title1">Rebellion One</div>
+          <div class="content">
+            My personal blog where I talk about life, and write poetry.
+           
+          </div>
+          </div>
 
+            </a>
+        </div>
+    </div>
+    </div>
 
+    <div class="card">
+     <div class="row">
+        <div class="col s12 m12 l12">
+            <a href="#">
+                <div class="col s12 m3 l3">
+                    <div class="card">
+          <div class="card-image">
+              <img src="asset/enso.jpg">
+                </div>
+                </div>
+           </div>
+          <div class="col s12 m8 l8 grey-text text-darken-1">
+          <div class="card-title1">Student Analysis and Counseling</div>
+          <div class="content">
+          This is my final year project for my Bachelor in Information Technology degree, which is just an extension of Utonexus on Android phones for the purpose of better professor-student relationships, 
+          relevant to the education system of India. Coming soon on play store
+           
+          </div>
+          </div>
 
+            </a>
+        </div>
+    </div>
+    </div>
 
+     <div class="card">
+     <div class="row">
+        <div class="col s12 m12 l12">
+            <a href="#">
+                <div class="col s12 m3 l3">
+                    <div class="card">
+          <div class="card-image">
+              <img src="asset/door.jpg">
+                </div>
+                </div>
+           </div>
+          <div class="col s12 m8 l8 grey-text text-darken-1">
+          <div class="card-title1">Knock Pattern Door Lock System</div>
+          <div class="content">
+          A patent that I and the Co founder at Utonexus, Manan Jadhav, have composed and filed together.
+           
+          </div>
+          </div>
 
+            </a>
+        </div>
+    </div>
+    </div>
 
+    <div class="card">
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <a href="http://rebellionone.wordpress.com">
+                <div class="col s12 m3 l3">
+                    <div class="card">
+          <div class="card-image">
+              <img src="asset/compression.jpg">
+                </div>
+                </div>
+           </div>
+          <div class="col s12 m8 l8 grey-text text-darken-1">
+          <div class="card-title1">Research</div>
+          <div class="content">
+            Currently working on a paper for a dictionary based losless compression algorithm, implemented on Python. 
+          </div>
+          </div>
+
+            </a>
+        </div>
+    </div>
+    </div>
 			
 		</div>
 	</section>
 
-	<section class="title indigo lighten-1">
+	<section class="title blue-grey lighten-1">
 
 		<div class="container center grey-text text-lighten-2">
-		<h4  class="header">Who am I?</h4>
+		<h4>Things I love doing</h4>	
 
-
-
-
-
-
+		<div class="row card-margin grey-text text-darken-2">
 			
+			<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/python.png">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Python programming
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/design.jpg">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							System Design and Algorithms
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/android.png">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Android programming
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/marketing.jpg">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Marketing and Management
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/psychology.jpg">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Psychology (Behavioral)
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/literature.jpg">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Reading and Writing
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+				<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/guitar.jpg">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Guitars and Song Writing
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="col s12 m3 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="asset/speak.jpg">
+					</div>
+					<div class="card-content">	
+						<div class="card-title">
+							Public speaking
+						</div>
+					</div>
+				</div>
+			</div>
+
+
 		</div>
+
 	</section>
 
+	<section class="title-end brown lighten-1">
+	<div class="container center grey-text text-lighten-2">
+		<h4>What do I stand for?</h4>	
+		<div class="row">
+			<div col = "s12 m12 l12">
+		<div class="card card-margin grey-text text-darken-2">
+			<div class="card-content">
+			A question about who we are and where we have come from, is the only question we can ask once we have settled all our worries for the day.
+			Everything else that we do is just an excuse to keep ourselves occupied with the mundane life and preventing this thought from
+			passing our minds. 
+			<br/><br/>
+			It is in this very moment of inquiry when we have the tremendous power of creating something that can be used as a tool to push 
+			our species further into the quest of demystifying the Universe.
+			<br/><br/>
+			Utonexus.com is our one such personal effort, which aims at shifting our social behavior, which is largely instinctive, to the analytical kind.
+			<br/><br/>
+			Only when we analyze things, we can be at peace, fully aware, and in control of our selves.
+			
+			</div>
+		</div>
+		</div>		
+		</div>
+		</div>
 
+	  <div class="footer indigo-text text-lighten-4">
+          <div class="container">
+        
+            Created by Vishal Vatnani
+            </div>
+          </div>
 
-
-
-	</body>
+        </section>
+	</body>        
 </html>
   

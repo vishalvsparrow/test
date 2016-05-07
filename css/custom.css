@@ -88,13 +88,11 @@ background-position: 30% 30%;
 }
 
 .title-end{
-	padding-top: 4%;
-	padding-bottom: -20%; 
+	padding-top: 4%; 
 }
 
 .footer{
-	
-	padding-top: 16em;
+	padding-top: 10em;
 	text-align: right;
 	padding-bottom: 2%;
 }

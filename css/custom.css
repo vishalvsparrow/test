@@ -1,7 +1,6 @@
 .background{
 background-image: url('../asset/bird.jpg');
 background-size: cover;
-background:#eoeoeo;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -10,14 +9,28 @@ height: auto;
 max-width: 100%;
 max-height: auto;
 background-attachment:fixed; 
-<<<<<<< HEAD
-
-=======
 height:100%;
->>>>>>> origin/master
 background-repeat: no-repeat;
 background-position: 30% 30%;
 }
+
+.background_fill {
+  overflow: hidden;
+  position: relative;
+}
+.background_fill:before {
+  background-color: blue;
+  background-size: cover;
+  z-index: -3;
+  content: " ";
+  position: fixed;
+  background: url('../asset/bird.jpg') no-repeat center center;
+  will-change: transform;
+  width: 100%;
+  height: 100%;
+
+}
+
 
 .feature{
 	border-radius: 100%;
@@ -27,12 +40,17 @@ background-position: 30% 30%;
 
 .pad{
 	padding-top:100px;
-	padding-bottom: 15%;
+	padding-bottom: 10%;
 }
 
 .title{
+	padding-top:4%;
+	padding-bottom: 12%;
+}
+
+.title1{
 	padding-top:30px;
-	padding-bottom: 15%;
+	padding-bottom: 2%;
 }
 
 .header{
@@ -43,16 +61,24 @@ background-position: 30% 30%;
 	padding-top: 0.9rem;
 	padding-right: 0.8rem;
 }
-<<<<<<< HEAD
+
 
 .content{
-	font-size: 1.1rem;
+	font-size: 1.0rem;
 	color: inherit;
 	margin-top: 0.4rem; 
+	padding-bottom: 3.7%;
 }
 
 .card-margin{
-	margin: 4.3rem;
+	
+	margin-top: 7%;
+
+}
+
+.card-margin2{
+	
+	margin-top: -4.2%;
 
 }
 
@@ -60,5 +86,15 @@ background-position: 30% 30%;
 	font-size: 2.0rem;
 	padding-top: 0.3rem;
 }
-=======
->>>>>>> origin/master
+
+.title-end{
+	padding-top: 4%;
+	padding-bottom: -20%; 
+}
+
+.footer{
+	
+	padding-top: 16em;
+	text-align: right;
+	padding-bottom: 2%;
+}
